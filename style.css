@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;900&display=swap');
-
+body{
+    background-image: linear-gradient(45deg , purple 45%, blue);
+    height: 100vh;
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +10,8 @@
 }
 
 h3{
+    color: white;
+    font-weight: 900;
     text-align: center;
     margin: 2em 0;
     text-decoration: underline;
@@ -25,13 +30,21 @@ h3{
 }
 
 .btn{
+    height: 55px;
+    width: 55px;
+    display: inline-block;
     padding: 1.8em;
     margin: 0.2em;
-    border: 1px solid black;
+    border: 2px solid black;
     border: none;
-    border-radius: 15px;
+    border-radius: 50%;
     cursor: pointer;
     }
+
+.btn:hover{
+    background-color: #FFD633;
+    border: 1px solid black;
+}
 
 .row-top button{
     padding: 1.6em;
